@@ -1,0 +1,8 @@
+ENUNCIADO:
+Considere o ficheiro HTML initBlog_flex_initial.html disponibilizada no moodle. Esta página já
+possui um menu conforme a imagem abaixo:
+
+GPT:
+
+
+RESPOSTA:

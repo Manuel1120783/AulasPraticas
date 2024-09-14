@@ -1,0 +1,415 @@
+/* * {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: bisque;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    background-color: bisque;
+}
+
+.header img {
+    margin-right: 1em;
+}
+
+.header h1, .header h3 {
+    margin: 0;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    background-color: #333;
+    padding: 0;
+}
+
+.menu li {
+    flex: 1;
+}
+
+.menu li a {
+    display: block;
+    text-align: center;
+    color: white;
+    padding: 1em;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: chocolate;
+}
+
+.main-content {
+    display: flex;
+    padding: 1em;
+}
+
+.tags {
+    flex: 1;
+    padding: 1em;
+    background-color: #f0f0f0;
+}
+
+.posts {
+    flex: 3;
+    padding: 1em;
+    background-color: white;
+    margin-left: 1em;
+}
+
+.posts article {
+    margin-bottom: 1em;
+    padding: 1em;
+    border: 1px solid #ddd;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+.footer .author-info a {
+    color: lightblue;
+    text-decoration: none;
+} */
+
+/* 
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: bisque;
+    padding: 1em;
+    border-bottom: 1px solid #ddd;
+}
+
+.header img {
+    margin-right: 1em;
+}
+
+.header .title {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu {
+    background-color: #333;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    flex: 1;
+}
+
+.menu li a {
+    display: block;
+    text-align: center;
+    color: white;
+    padding: 1em;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: chocolate;
+}
+
+.main-content {
+    display: flex;
+    flex: 1;
+    padding: 1em;
+    background-color: #f9f9f9;
+}
+
+.tags {
+    flex: 1;
+    padding: 1em;
+    background-color: #f0f0f0;
+    margin-right: 1em;
+    border-right: 1px solid #ddd;
+}
+
+.tags h2 {
+    margin-bottom: 0.5em;
+}
+
+.tags ul {
+    list-style: none;
+    padding: 0;
+}
+
+.tags li {
+    margin-bottom: 0.5em;
+}
+
+.tags li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.posts {
+    flex: 3;
+    padding: 1em;
+    background-color: white;
+}
+
+.post {
+    margin-bottom: 1em;
+    padding: 1em;
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+
+.post h2 {
+    margin-bottom: 0.5em;
+}
+
+.post p {
+    color: #555;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+.footer .author-info a {
+    color: lightblue;
+    text-decoration: none;
+} */
+
+
+
+/* Define estilo básico para todos os elementos da página */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    /* Define a fonte padrão para todo o documento como Arial, Helvetica ou sans-serif */
+    margin: 0;
+    /* Remove todas as margens padrão dos elementos */
+    padding: 0;
+    /* Remove todo o preenchimento padrão dos elementos */
+    box-sizing: border-box;
+    /* Inclui bordas e preenchimentos nas medidas de largura e altura, facilitando o controle do layout */
+}
+
+/* Estilo do corpo da página */
+body {
+    background-color: bisque;
+    /* Define a cor de fundo do corpo da página como bisque */
+    display: flex;
+    /* Define o corpo como um contêiner flexível, permitindo o controle do layout interno */
+    flex-direction: column;
+    /* Organiza os filhos do corpo (header, main, footer) em uma coluna */
+    min-height: 100vh;
+    /* Garante que o corpo ocupe pelo menos 100% da altura da tela, mantendo o layout na tela inteira */
+}
+
+/* Estilo para o cabeçalho */
+.header {
+    display: flex;
+    /* Usa Flexbox para organizar os elementos do cabeçalho em linha (imagem e títulos) */
+    align-items: center;
+    /* Alinha verticalmente os itens do cabeçalho ao centro */
+    background-color: bisque;
+    /* Define a cor de fundo do cabeçalho */
+    padding: 1em;
+    /* Adiciona espaçamento interno ao redor dos itens do cabeçalho */
+    border-bottom: 1px solid #ddd;
+    /* Adiciona uma linha inferior cinza clara para separar visualmente o cabeçalho */
+}
+
+/* Estilo para a imagem no cabeçalho */
+.header img {
+    margin-right: 1em;
+    /* Adiciona espaço à direita da imagem para separar dos títulos */
+}
+
+/* Container para os títulos dentro do cabeçalho */
+.header .title {
+    display: flex;
+    /* Define um layout flexível para o contêiner de títulos */
+    flex-direction: column;
+    /* Organiza os títulos (h1 e h3) verticalmente em uma coluna */
+}
+
+/* Estilo para o menu de navegação */
+.menu {
+    background-color: #333;
+    /* Define a cor de fundo do menu como cinza escuro */
+}
+
+/* Lista do menu de navegação */
+.menu ul {
+    display: flex;
+    /* Usa Flexbox para dispor os itens da lista em linha */
+    list-style: none;
+    /* Remove os marcadores padrão da lista */
+    margin: 0;
+    /* Remove margem da lista */
+    padding: 0;
+    /* Remove preenchimento da lista */
+}
+
+/* Cada item do menu de navegação */
+.menu li {
+    flex: 1;
+    /* Faz com que cada item de menu ocupe igualmente o espaço disponível */
+}
+
+/* Links dentro do menu */
+.menu li a {
+    display: block;
+    /* Torna o link um bloco para ocupar toda a área do item do menu */
+    text-align: center;
+    /* Centraliza o texto dentro do bloco */
+    color: white;
+    /* Define a cor do texto dos links como branco */
+    padding: 1em;
+    /* Adiciona espaçamento interno aos links para aumentar a área de clique */
+    text-decoration: none;
+    /* Remove o sublinhado padrão dos links */
+}
+
+/* Efeito de hover para os links do menu */
+.menu li a:hover {
+    background-color: chocolate;
+    /* Altera a cor de fundo para chocolate quando o mouse passa sobre o link */
+}
+
+/* Layout principal que inclui as seções de tags e posts */
+.main-content {
+    display: flex;
+    /* Usa Flexbox para organizar o conteúdo principal lado a lado */
+    flex: 1;
+    /* Expande o conteúdo principal para ocupar o espaço disponível */
+    padding: 1em;
+    /* Adiciona espaçamento interno ao redor do conteúdo principal */
+    background-color: #f9f9f9;
+    /* Define uma cor de fundo clara para o conteúdo principal */
+}
+
+/* Seção de tags */
+.tags {
+    flex: 1;
+    /* Define que a seção de tags ocupará uma parte do espaço flexível */
+    padding: 1em;
+    /* Adiciona espaçamento interno à seção de tags */
+    background-color: #f0f0f0;
+    /* Define uma cor de fundo cinza claro para a seção de tags */
+    margin-right: 1em;
+    /* Adiciona espaço à direita para separar da seção de posts */
+    border-right: 1px solid #ddd;
+    /* Adiciona uma linha de borda à direita para dividir visualmente as seções */
+}
+
+/* Estilo para o título das tags */
+.tags h2 {
+    margin-bottom: 0.5em;
+    /* Adiciona espaço abaixo do título para separação dos itens de lista */
+}
+
+/* Lista das tags */
+.tags ul {
+    list-style: none;
+    /* Remove os marcadores de lista padrão */
+    padding: 0;
+    /* Remove preenchimento da lista */
+}
+
+/* Cada item da lista de tags */
+.tags li {
+    margin-bottom: 0.5em;
+    /* Adiciona espaço inferior entre os itens da lista */
+}
+
+/* Links das tags */
+.tags li a {
+    color: #333;
+    /* Define a cor do texto dos links como cinza escuro */
+    text-decoration: none;
+    /* Remove o sublinhado padrão dos links */
+}
+
+/* Seção de posts */
+.posts {
+    flex: 3;
+    /* Define que a seção de posts ocupará três partes do espaço flexível */
+    padding: 1em;
+    /* Adiciona espaçamento interno aos posts */
+    background-color: white;
+    /* Define a cor de fundo dos posts como branco */
+}
+
+/* Estilo para cada post */
+.post {
+    margin-bottom: 1em;
+    /* Adiciona espaço inferior entre os posts */
+    padding: 1em;
+    /* Adiciona espaçamento interno dentro de cada post */
+    border: 1px solid #ddd;
+    /* Adiciona uma borda leve ao redor de cada post para separação visual */
+    background-color: #fff;
+    /* Define a cor de fundo dos posts como branco */
+}
+
+/* Estilo para o título de cada post */
+.post h2 {
+    margin-bottom: 0.5em;
+    /* Adiciona espaço inferior abaixo do título do post */
+}
+
+/* Estilo para o parágrafo de cada post */
+.post p {
+    color: #555;
+    /* Define a cor do texto do parágrafo como cinza médio para uma leitura confortável */
+}
+
+/* Estilo do rodapé */
+.footer {
+    background-color: #333;
+    /* Define a cor de fundo do rodapé como cinza escuro */
+    color: white;
+    /* Define a cor do texto do rodapé como branco */
+    text-align: center;
+    /* Centraliza o texto dentro do rodapé */
+    padding: 1em;
+    /* Adiciona espaçamento interno ao rodapé */
+}
+
+/* Estilo para os links de email no rodapé */
+.footer .author-info a {
+    color: lightblue;
+    /* Define a cor dos links de email como azul claro */
+    text-decoration: none;
+    /* Remove o sublinhado dos links no rodapé */
+}

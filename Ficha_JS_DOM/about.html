@@ -1,0 +1,258 @@
+<!-- <!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="utf-8">
+    <title>About Ozzy Osbourne</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Ozzy Osbourne</h1>
+    </header>
+    <main>
+        <section>
+            <h2 id="quick-facts-title">Quick Facts</h2>
+            <ul id="quick-facts" class="brd">
+                <li>
+                    <p><span>Birth Name:</span> John Michael Osbourne</p>
+                </li>
+                <li>
+                    <p><span>Birth Date:</span> 3 December 1948 (age 71)</p>
+                </li>
+                <li>
+                    <p><span>Website:</span> <a href="http://www.ozzy.com" target="_blank"
+                            class="url-text">www.ozzy.com</a></p>
+                </li>
+                <li>
+                    <p><span>Genres:</span> Hard Rock, Heavy Metal</p>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Life</h2>
+            <p id="life">Upon hearing their first hit single at age 14, he became a great fan of the Beatles.
+                He credits the band’s 1963 song "She Loves You" for inspiring him to become a musician.
+                He said in the 2011 documentary God Bless Ozzy Osbourne,
+                "I knew I was going to be a rock star the rest of my life."</p>
+        </section>
+
+        <section>
+            <h2>Grammy Awards</h2>
+            <ul id="awards">
+                <li><span>2013:</span> BEST METAL PERFORMANCE - God Is Dead?</li>
+                <li><span>2012:</span> BEST ROCK SONG - God Is Dead?</li>
+                <li><span>2011:</span> BEST HARD ROCK PERFORMANCE - Let Me Hear You Scream</li>
+                <li><span>2010:</span> BEST HARD ROCK PERFORMANCE - I Don’t Wanna Stop</li>
+                <li><span>2009:</span> BEST METAL PERFORMANCE - The Wizard</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Projeto exec_HTML</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const quickFactsTitle = document.getElementById('quick-facts-title');
+            const quickFacts = document.getElementById('quick-facts');
+
+            quickFactsTitle.addEventListener('mouseover', function () {
+                quickFacts.style.display = 'block';
+            });
+
+            quickFactsTitle.addEventListener('mouseout', function () {
+                quickFacts.style.display = 'none';
+            });
+
+            quickFacts.addEventListener('mouseover', function () {
+                quickFacts.style.display = 'block';
+            });
+
+            quickFacts.addEventListener('mouseout', function () {
+                quickFacts.style.display = 'none';
+            });
+        });
+    </script>
+</body>
+
+</html><!-- -->
+
+<!-- 
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="utf-8">
+    <title>About Ozzy Osbourne</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> <!-- Link para o arquivo CSS externo 
+</head>
+
+<body>
+    <header>
+        <h1>Ozzy Osbourne</h1> <!-- Título principal da página 
+    </header>
+    <main>
+        <section>
+            <!-- Identificamos o título com o id 'quick-facts-title' para usá-lo no JavaScript 
+            <h2 id="quick-facts-title">Quick Facts</h2>
+            <!-- A lista de Quick Facts é identificada com o id 'quick-facts' 
+            <ul id="quick-facts" class="brd">
+                <li>
+                    <p><span>Birth Name:</span> John Michael Osbourne</p>
+                </li>
+                <li>
+                    <p><span>Birth Date:</span> 3 December 1948 (age 71)</p>
+                </li>
+                <li>
+                    <p><span>Website:</span> <a href="http://www.ozzy.com" target="_blank"
+                            class="url-text">www.ozzy.com</a></p>
+                </li>
+                <li>
+                    <p><span>Genres:</span> Hard Rock, Heavy Metal</p>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Life</h2>
+            <!-- Parágrafo descritivo sobre a vida de Ozzy Osbourne 
+            <p id="life">Upon hearing their first hit single at age 14, he became a great fan of the Beatles.
+                He credits the band’s 1963 song "She Loves You" for inspiring him to become a musician.
+                He said in the 2011 documentary God Bless Ozzy Osbourne,
+                "I knew I was going to be a rock star the rest of my life."</p>
+        </section>
+
+        <section>
+            <h2>Grammy Awards</h2>
+            <!-- Lista de prêmios Grammy associados a Ozzy Osbourne 
+            <ul id="awards">
+                <li><span>2013:</span> BEST METAL PERFORMANCE - God Is Dead?</li>
+                <li><span>2012:</span> BEST ROCK SONG - God Is Dead?</li>
+                <li><span>2011:</span> BEST HARD ROCK PERFORMANCE - Let Me Hear You Scream</li>
+                <li><span>2010:</span> BEST HARD ROCK PERFORMANCE - I Don’t Wanna Stop</li>
+                <li><span>2009:</span> BEST METAL PERFORMANCE - The Wizard</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Projeto exec_HTML</p> <!-- Rodapé da página 
+    </footer>
+
+    <script>
+        // Aguarda o carregamento completo do DOM para garantir que todos os elementos estejam disponíveis
+        document.addEventListener('DOMContentLoaded', function () {
+            // Seleciona o título "Quick Facts" pelo seu id
+            const quickFactsTitle = document.getElementById('quick-facts-title');
+            // Seleciona a lista de "Quick Facts" pelo seu id
+            const quickFacts = document.getElementById('quick-facts');
+
+            // Adiciona um evento 'mouseover' ao título "Quick Facts"
+            // Quando o mouse passa sobre o título, os Quick Facts são mostrados
+            quickFactsTitle.addEventListener('mouseover', function () {
+                quickFacts.style.display = 'block'; // Exibe os Quick Facts
+            });
+
+            // Adiciona um evento 'mouseout' ao título "Quick Facts"
+            // Quando o mouse sai do título, os Quick Facts são escondidos
+            quickFactsTitle.addEventListener('mouseout', function () {
+                quickFacts.style.display = 'none'; // Esconde os Quick Facts
+            });
+
+            // Adiciona um evento 'mouseover' à lista de "Quick Facts"
+            // Isso permite que a lista continue visível quando o mouse estiver sobre ela
+            quickFacts.addEventListener('mouseover', function () {
+                quickFacts.style.display = 'block'; // Mantém os Quick Facts visíveis
+            });
+
+            // Adiciona um evento 'mouseout' à lista de "Quick Facts"
+            // Quando o mouse sai da lista, os Quick Facts são escondidos
+            quickFacts.addEventListener('mouseout', function () {
+                quickFacts.style.display = 'none'; // Esconde os Quick Facts
+            });
+        });
+    </script>
+</body>
+
+</html><!----> 
+
+
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="utf-8">
+    <title>About Ozzy Osbourne</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> <!-- Link para o arquivo CSS externo -->
+</head>
+
+<body>
+    <header>
+        <h1>Ozzy Osbourne</h1> <!-- Título principal da página -->
+    </header>
+    <main>
+        <section>
+            <!-- Adicionando onMouseOver e onMouseOut diretamente no HTML para o título -->
+            <!-- onMouseOver chama a função showQuickFacts quando o mouse está sobre o título -->
+            <!-- onMouseOut chama a função hideQuickFacts quando o mouse sai do título -->
+            <h2 id="quick-facts-title" onMouseOver="showQuickFacts()" onMouseOut="hideQuickFacts()">Quick Facts</h2>
+
+            <!-- Adicionando onMouseOver e onMouseOut diretamente no HTML para a lista de Quick Facts -->
+            <!-- Isso mantém os Quick Facts visíveis quando o mouse está sobre a lista -->
+            <ul id="quick-facts" class="brd" onMouseOver="showQuickFacts()" onMouseOut="hideQuickFacts()">
+                <li>
+                    <p><span>Birth Name:</span> John Michael Osbourne</p>
+                </li>
+                <li>
+                    <p><span>Birth Date:</span> 3 December 1948 (age 71)</p>
+                </li>
+                <li>
+                    <p><span>Website:</span> <a href="http://www.ozzy.com" target="_blank"
+                            class="url-text">www.ozzy.com</a></p>
+                </li>
+                <li>
+                    <p><span>Genres:</span> Hard Rock, Heavy Metal</p>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Life</h2>
+            <!-- Descrição da vida de Ozzy Osbourne -->
+            <p id="life">Upon hearing their first hit single at age 14, he became a great fan of the Beatles.
+                He credits the band’s 1963 song "She Loves You" for inspiring him to become a musician.
+                He said in the 2011 documentary God Bless Ozzy Osbourne,
+                "I knew I was going to be a rock star the rest of my life."</p>
+        </section>
+
+        <section>
+            <h2>Grammy Awards</h2>
+            <!-- Lista dos prêmios Grammy relacionados a Ozzy Osbourne -->
+            <ul id="awards">
+                <li><span>2013:</span> BEST METAL PERFORMANCE - God Is Dead?</li>
+                <li><span>2012:</span> BEST ROCK SONG - God Is Dead?</li>
+                <li><span>2011:</span> BEST HARD ROCK PERFORMANCE - Let Me Hear You Scream</li>
+                <li><span>2010:</span> BEST HARD ROCK PERFORMANCE - I Don’t Wanna Stop</li>
+                <li><span>2009:</span> BEST METAL PERFORMANCE - The Wizard</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Projeto exec_HTML</p> <!-- Rodapé da página -->
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
+

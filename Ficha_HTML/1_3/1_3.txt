@@ -1,0 +1,68 @@
+Questão no Enunciado:
+Tendo por base o projeto HTML5 criado na alínea (1.1), crie um documento HTML com o nome
+“about”. Esta página possui somente títulos h1 e h2 e deverá ter o seguinte resultado quando
+aberto por um navegador:
+
+Questão no GPT:
+Tendo por base o projeto HTML5 'exec_HTML' criado, que incluí os ficheiros index.html, script.js e style.css, crie um documento HTML com o nome “about”. 
+Esta página “about” possui somente títulos h1 e h2 e deverá ter o resultado conforme o ficheiro about_definitivo.docx.
+Os ficheiros mencionados aqui serão já enviados em anexo:
+
+
+Resposta:
+Com base nos ficheiros fornecidos, aqui está o documento HTML "about.html" criado de acordo com o conteúdo especificado no ficheiro "about_definitivo.docx". 
+Este ficheiro incluirá somente títulos h1 e h2, conforme a estrutura de estilo presente no projeto "exec_HTML".
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>About Ozzy Osbourne</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Ozzy Osbourne</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Quick Facts</h2>
+            <p>Birth Name: John Michael Osbourne</p>
+            <p>Birth Date: 3 December 1948 (age 71)</p>
+            <p>Website: <a href="http://www.ozzy.com" target="_blank">www.ozzy.com</a></p>
+            <p>Genres: Hard Rock, Heavy Metal</p>
+        </section>
+        <section>
+            <h2>Life</h2>
+            <p>Upon hearing their first hit single at age 14, he became a great fan of the Beatles. He credits the band’s 1963 song “She Loves You” for inspiring him to become a musician. He said in the 2011 documentary God Bless Ozzy Osbourne, "I knew I was going to be a rock star the rest of my life."</p>
+        </section>
+        <section>
+            <h2>Grammy Awards</h2>
+            <ul>
+                <li>2013: BEST METAL PERFORMANCE - God Is Dead?</li>
+                <li>2012: BEST ROCK SONG - God Is Dead?</li>
+                <li>2011: BEST HARD ROCK PERFORMANCE - Let Me Hear You Scream</li>
+                <li>2010: BEST HARD ROCK PERFORMANCE - I Don't Wanna Stop</li>
+                <li>2009: BEST METAL PERFORMANCE - The Wizard</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Projeto exec_HTML</p>
+    </footer>
+</body>
+</html>
+
+Instruções para Implementação:
+Adicionar o ficheiro "about.html" na mesma pasta do projeto exec_HTML onde estão os ficheiros index.html, script.js, e style.css.
+
+Aplicar Estilos com o style.css: 
+O ficheiro CSS fornecido já contém estilos básicos para títulos h1 e h2, além de outras configurações de layout que serão aplicadas automaticamente ao novo documento "about.html".
+
+Se precisar de mais ajustes ou personalizações, sinta-se à vontade para pedir!
+
+ONENOTE:
+https://myisepipp-my.sharepoint.com/personal/1120783_isep_ipp_pt/_layouts/OneNote.aspx?id=%2Fpersonal%2F1120783_isep_ipp_pt%2FDocuments%2FEXAME%202024%20SETEMBRO%2FEXAME%202024%20SETEMBRO&wd=target%28APONTAMENTOS%2FF%2FHTML%20Ficha%2F1.3.one%7C5BBCC6FC-9379-4E3B-A049-3E101C633CBA%2F1.3%20resposta%7CF44E1928-1473-4E1F-B1C1-AF167013C146%2F%29
+onenote:https://myisepipp-my.sharepoint.com/personal/1120783_isep_ipp_pt/Documents/EXAME%202024%20SETEMBRO/EXAME%202024%20SETEMBRO/APONTAMENTOS/F/HTML%20Ficha/1.3.one#1.3%20resposta&section-id={5BBCC6FC-9379-4E3B-A049-3E101C633CBA}&page-id={F44E1928-1473-4E1F-B1C1-AF167013C146}&end

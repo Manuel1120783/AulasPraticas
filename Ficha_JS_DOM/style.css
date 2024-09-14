@@ -1,0 +1,127 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    text-align: left;
+    background-color: rgb(34, 30, 32);
+    /* Fundo da página */
+}
+
+h1 {
+    font-family: 'Desdemona', sans-serif;
+    /* Fonte Desdémona */
+    font-size: 70px;
+    /* Tamanho do título */
+    color: rgb(234, 167, 0);
+    /* Cor do título */
+    text-align: -WEBKIT-LEFT;
+    /*eu*/
+    /* minha correção*/
+    /** text-align: center;
+     Centraliza o título */
+    margin-bottom: 10px;
+    /* Espaçamento inferior */
+}
+
+h2 {
+    font-family: 'Desdemona', sans-serif;
+    /* Fonte Desdémona */
+    font-size: 26px;
+    /* Tamanho do subtítulo */
+    color: white;
+    /* Cor branca para subtítulos */
+    margin-bottom: 8px;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: disc;
+    /* Estilo da lista com discos */
+    padding-bottom: 200px;
+    margin-left: 50px;
+    /* Margem à esquerda */
+}
+
+.brd {
+    color: white;
+    /*padding-left: 40px;*/
+    /*eu*/
+    /** padding-left: 0px; */
+    border: 1px solid white;
+    /* Borda branca ao redor da primeira lista */
+    padding: 10px 50px 10px 40px;
+    /*eu*/
+    /* Espaçamento interno */
+    margin: 10px 0px 10px 0px;
+    /*eu*/
+    /**margin: 10px 0;*/
+    /* Espaçamentos externos: superior, direito, inferior, esquerdo */
+    width: fit-content;
+    /* eu*/
+    /*faz com que o elemento se ajuste ao seu conteúdo*/
+}
+
+.brd li span {
+    font-weight: bold;
+    color: rgb(118, 83, 121);
+    /* Cor dos spans na primeira lista */
+}
+
+/*eu*/
+.url-text {
+    pointer-events: none;
+    /*desativa cliques*/
+    cursor: default;
+    /*Define o cursor como padrão*/
+    color: inherit;
+    /*Mantém a cor do texto padrão*/
+    text-decoration: none;
+    /*Remove o sublinhado*/
+}
+
+#life {
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+    /* Estilo do parágrafo em itálico, negrito e cor branca */
+    padding: 10px;
+    /* Adiciona espaçamento interno */
+}
+
+#awards {
+    font-weight: bold;
+    /* Realça o elemento */
+    color: white;
+    /* Cor branca para o texto */
+}
+
+#awards li span {
+    font-weight: bold;
+    color: rgb(118, 83, 121);
+    /* Cor dos spans na segunda lista */
+}
+
+p {
+    margin-bottom: 10px;
+    /* Espaçamento inferior dos parágrafos */
+}
+
+span {
+    font-weight: bold;
+    /* Define todos os spans como negrito */
+}
+
+
+/* Regras de CSS para esconder os Quick Facts por padrão */
+#quick-facts {
+    display: none;
+    /* Define que os Quick Facts são inicialmente escondidos */
+}

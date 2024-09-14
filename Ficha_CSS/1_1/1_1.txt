@@ -1,0 +1,32 @@
+ENUNCIADO:
+Tomando como base a página about.html que criou na Ficha 1, efetue as alterações necessárias
+ao ficheiro de forma a ficar semelhante à imagem abaixo (Figura 1). 
+Tenha em atenção à introdução de identificadores e de classes associados ao HTML (linhas 12, 19 e 25) na figura
+abaixo.
+
+GPT:
+Tomando como base a página do ficheiro about.html que foi criado anteriormente, efetue as alterações necessárias
+ao ficheiro de forma a ficar semelhante à imagem que envio junto.
+Tenha em atenção à introdução de identificadores e de classes associados ao HTML (linhas 12, 19 e 25) na figura que junto envio.
+
+
+ONENOTE:
+https://myisepipp-my.sharepoint.com/personal/1120783_isep_ipp_pt/_layouts/OneNote.aspx?id=%2Fpersonal%2F1120783_isep_ipp_pt%2FDocuments%2FEXAME%202024%20SETEMBRO%2FEXAME%202024%20SETEMBRO&wd=target%28APONTAMENTOS%2FF%2FCSS%20Ficha%2F1.1.one%7C8C69BF14-B017-44D8-AFB1-8C38E06E288A%2F1.1%20Resposta%3A%7C27C1F998-2BE2-4EFA-A4CD-52C9FDA768A1%2F%29
+onenote:https://myisepipp-my.sharepoint.com/personal/1120783_isep_ipp_pt/Documents/EXAME%202024%20SETEMBRO/EXAME%202024%20SETEMBRO/APONTAMENTOS/F/CSS%20Ficha/1.1.one#1.1%20Resposta&section-id={8C69BF14-B017-44D8-AFB1-8C38E06E288A}&page-id={27C1F998-2BE2-4EFA-A4CD-52C9FDA768A1}&end
+
+
+
+Defina os seletores CSS de modo a produzir as seguintes alterações de estilo:
+• O fundo deverá ser da cor: r(34), g(30), b(32);
+• O título deverá ser apresentado centrado do tipo de letra Desdemona tamanho 70px e
+• cor: r(234), g(167), b(0);
+• Os elementos h2 devem ser do tipo de letra Desdemona com tamanho 26px com cor
+• branca;
+• Os elementos span da lista não numerada devem ser negrito com a seguinte cor r(118),
+• g(83), b(121);
+• O elemento com id life deverá ser apresentado em itálico, negrito e com a cor branca;
+• Criar uma border à volta da primeira lista não ordenada;
+• Os elementos span da segunda lista não numerada devem ser negrito com a seguinte cor
+r(118), g(83), b(121);
+• Realçar (por exemplo a negrito) e colocar o texto com a cor branca o elemento com o id
+awards.

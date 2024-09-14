@@ -1,0 +1,14 @@
+ENUNCIADO:
+Tendo por base o projeto HTML5 criado na alínea (1.1) altere o documento index.html, de forma
+a possuir hiperligações para todas as páginas que criou anteriormente (about.html e table.html).
+Os nomes das hiperligações deverão ser do tipo h2. Teste as hiperligações que criou verificando
+se estão a funcionar corretamente.
+
+GPT:
+Tendo por base o projeto HTML5 'exec_HTML' criado, que incluí os ficheiros index.html, script.js e style.css, altere o documento index.html, de forma a possuir hiperligações para todas as páginas que criou anteriormente (about.html e table.html).
+Os nomes das hiperligações deverão ser do tipo h2. Teste as hiperligações que criou verificando
+se estão a funcionar corretamente.
+
+ONENOTE:
+https://myisepipp-my.sharepoint.com/personal/1120783_isep_ipp_pt/_layouts/OneNote.aspx?id=%2Fpersonal%2F1120783_isep_ipp_pt%2FDocuments%2FEXAME%202024%20SETEMBRO%2FEXAME%202024%20SETEMBRO&wd=target%28APONTAMENTOS%2FF%2FHTML%20Ficha%2F1.5.one%7C1402AB54-9F9D-4F2D-8973-3FE4FB0908F9%2F1.5%20resposta%3A%7CBBED8C0C-5A93-4347-90AA-54CF34AC7784%2F%29
+onenote:https://myisepipp-my.sharepoint.com/personal/1120783_isep_ipp_pt/Documents/EXAME%202024%20SETEMBRO/EXAME%202024%20SETEMBRO/APONTAMENTOS/F/HTML%20Ficha/1.5.one#1.5%20resposta&section-id={1402AB54-9F9D-4F2D-8973-3FE4FB0908F9}&page-id={BBED8C0C-5A93-4347-90AA-54CF34AC7784}&end

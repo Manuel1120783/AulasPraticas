@@ -1,0 +1,56 @@
+Tendo em consideração o ficheiro HTML: valida_initial.html existente na página da disciplina, utilize o validador HTML existente na página: https://validator.w3.org/, validando o documento e realize as correções necessárias para que o documento cumpra as regras de validação.
+
+Tendo em consideração o ficheiro HTML: valida_initial.html existente no repositório https://github.com/Manuel1120783/AulasPraticas.git, utilize o validador HTML existente na página: https://validator.w3.org/, validando o documento e realize as correções necessárias para que o documento cumpra as regras de validação.
+
+https://myisepipp-my.sharepoint.com/personal/1120783_isep_ipp_pt/_layouts/OneNote.aspx?id=%2Fpersonal%2F1120783_isep_ipp_pt%2FDocuments%2FEXAME%202024%20SETEMBRO%2FEXAME%202024%20SETEMBRO&wd=target%28APONTAMENTOS%2FF%2FHTML%20Ficha%2F1.2.one%7CEB8C1A97-F9B4-4633-B3A6-8F331AED5767%2Fficheiro%20HTML%20valida_initial.html%3A%7CDB510C44-C929-454C-B697-C56198EE3AB3%2F%29
+onenote:https://myisepipp-my.sharepoint.com/personal/1120783_isep_ipp_pt/Documents/EXAME%202024%20SETEMBRO/EXAME%202024%20SETEMBRO/APONTAMENTOS/F/HTML%20Ficha/1.2.one#ficheiro%20HTML%20valida_initial.html&section-id={EB8C1A97-F9B4-4633-B3A6-8F331AED5767}&page-id={DB510C44-C929-454C-B697-C56198EE3AB3}&end
+
+
+https://chatgpt.com/g/g-kZ0eYXlJe-scholar-gpt/c/66e237e6-65f0-800f-ab99-c4e429d80dfc
+
+
+Aqui está o código do arquivo valida_initial.html que você enviou. Para validar e corrigir erros de conformidade HTML, farei algumas sugestões com base no que normalmente causaria problemas de validação.
+Passos para validação:
+	1. Acessar o validador HTML:
+		○ Vá até validator.w3.org.
+		○ Faça upload do arquivo valida_initial.html ou cole o código diretamente no validador.
+
+	2. Correções possíveis (baseadas na análise inicial):
+		○ Uso de tags <br>: Para melhorar a acessibilidade, evite o uso de múltiplos <br> para criar espaços visuais.    Substitua-os por margens no CSS, como margin-bottom.
+		○ Elementos <img> sem atributo alt: Toda imagem deve ter um texto alternativo no atributo alt para acessibilidade e SEO. Exemplo:
+
+<img src="https://picsum.photos/id/1/200/300" alt="Descrição da imagem">
+		○ Estrutura de Listas: Se você estiver criando um menu de navegação, é uma prática melhor usar uma única lista <ul> com todos os itens, em vez de duas separadas:
+
+
+<ul>
+    <li><a href="#">Sobre</a></li>
+    <li><a href="#">Serviços</a></li>
+    <li><a href="#">Portfolio</a></li>
+    <li><a href="#">Contactos</a></li>
+</ul>
+		○ Espaço vazio no footer: Evite <p> vazios como no rodapé:
+
+
+<p></p>
+		○ Atributo aria-label: Verifique se os rótulos ARIA são descritivos e adequados. Exemplo:
+
+
+<a href="#" aria-label="Imagem de um laptop em uso">
+    <img src="https://picsum.photos/id/1/200/300" alt="Descrição da imagem">
+</a>
+
+	3. Revisão do Validador: Após validar, o validador vai indicar quaisquer outros erros ou avisos específicos. Siga as recomendações fornecidas por ele para corrigir as inconformidades.
+Próximos passos
+	• Valide o código e, caso haja mais problemas ou dúvidas nas correções, posso ajudar a solucioná-los.
+	
+	
+	
+	https://chatgpt.com/g/g-kZ0eYXlJe-scholar-gpt/c/66e237e6-65f0-800f-ab99-c4e429d80dfc
+	
+	
+ONENOTE:
+https://myisepipp-my.sharepoint.com/personal/1120783_isep_ipp_pt/_layouts/OneNote.aspx?id=%2Fpersonal%2F1120783_isep_ipp_pt%2FDocuments%2FEXAME%202024%20SETEMBRO%2FEXAME%202024%20SETEMBRO&wd=target%28APONTAMENTOS%2FF%2FHTML%20Ficha%2F1.2.one%7CEB8C1A97-F9B4-4633-B3A6-8F331AED5767%2Fficheiro%20HTML%20valida_initial.html%3A%7CDB510C44-C929-454C-B697-C56198EE3AB3%2F%29
+onenote:https://myisepipp-my.sharepoint.com/personal/1120783_isep_ipp_pt/Documents/EXAME%202024%20SETEMBRO/EXAME%202024%20SETEMBRO/APONTAMENTOS/F/HTML%20Ficha/1.2.one#ficheiro%20HTML%20valida_initial.html&section-id={EB8C1A97-F9B4-4633-B3A6-8F331AED5767}&page-id={DB510C44-C929-454C-B697-C56198EE3AB3}&end
+
+

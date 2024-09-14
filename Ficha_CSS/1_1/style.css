@@ -1,0 +1,362 @@
+/* Reset básico */
+/*
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    text-align: left;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 8px;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: disc;
+    padding: 0;
+    margin-left: 50px;
+}
+
+.brd {
+    padding-left: 0px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+span {
+    font-weight: bold;
+}
+*/
+
+
+
+/* Reset básico */
+/*
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    text-align: left;
+    background-color: rgb(34, 30, 32);
+    /* Fundo da cor especificada 
+}
+
+h1 {
+    font-family: 'Desdemona', sans-serif;
+    /* Tipo de letra Desdémona 
+    font-size: 70px;
+    color: rgb(234, 167, 0);
+    /* Cor especificada 
+    text-align: center;
+    /* Texto centrado 
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-family: 'Desdemona', sans-serif;
+    /* Tipo de letra Desdémona 
+    font-size: 26px;
+    color: white;
+    /* Cor branca 
+    margin-bottom: 8px;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: disc;
+    padding: 0;
+    margin-left: 50px;
+}
+
+.brd {
+    padding-left: 0px;
+    border: 1px solid white;
+    /* Border na primeira lista não ordenada 
+}
+
+.brd li span {
+    font-weight: bold;
+    color: rgb(118, 83, 121);
+    /* Cor dos spans na primeira lista 
+}
+
+#life {
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+    /* Elemento em itálico, negrito e com cor branca 
+}
+
+#awards {
+    font-weight: bold;
+    /* Realçar o elemento 
+    color: white;
+    /* Cor branca para o texto 
+}
+
+#awards li span {
+    font-weight: bold;
+    color: rgb(118, 83, 121);
+    /* Cor dos spans na segunda lista 
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+span {
+    font-weight: bold;
+}
+*/
+
+
+
+
+/*
+/* Reset básico 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    /* Define a fonte principal do corpo do texto 
+    line-height: 1.6;
+    /* Define o espaçamento entre as linhas de texto 
+    margin: 20px;
+    /* Define uma margem ao redor do corpo do documento 
+    text-align: left;
+    /* Alinha o texto à esquerda 
+    background-color: rgb(34, 30, 32);
+    /* Define a cor de fundo da página para um tom escuro especificado 
+}
+
+h1 {
+    font-family: 'Desdemona', sans-serif;
+    /* Define a fonte do título como Desdémona 
+    font-size: 70px;
+    /* Define o tamanho da fonte do título 
+    color: rgb(234, 167, 0);
+    /* Define a cor do título para um tom amarelo especificado 
+    text-align: center;
+    /* Centraliza o título na página 
+    margin-bottom: 10px;
+    /* Define um espaçamento inferior ao título 
+}
+
+h2 {
+    font-family: 'Desdemona', sans-serif;
+    /* Define a fonte dos subtítulos como Desdémona 
+    font-size: 26px;
+    /* Define o tamanho da fonte dos subtítulos 
+    color: white;
+    /* Define a cor dos subtítulos como branca 
+    margin-bottom: 8px;
+    /* Define um espaçamento inferior aos subtítulos 
+    margin-top: 20px;
+    /* Define um espaçamento superior aos subtítulos 
+}
+
+ul {
+    list-style-type: disc;
+    /* Define o estilo dos marcadores das listas como discos 
+    padding: 0;
+    /* Remove o padding padrão das listas 
+    margin-left: 50px;
+    /* Adiciona margem à esquerda para alinhar as listas 
+}
+
+.brd {
+    padding-left: 0px;
+    /* Remove o padding à esquerda na lista com a classe 'brd' 
+    border: 1px solid white;
+    /* Adiciona uma borda branca em volta da primeira lista não ordenada 
+}
+
+.brd li span {
+    font-weight: bold;
+    /* Define o texto dos spans dentro da lista 'brd' como negrito 
+    color: rgb(118, 83, 121);
+    /* Define a cor dos spans na lista 'brd' para um tom púrpura especificado 
+}
+
+#life {
+    font-style: italic;
+    /* Define o estilo do texto como itálico 
+    font-weight: bold;
+    /* Define o texto como negrito 
+    color: white;
+    /* Define a cor do texto como branca 
+}
+
+#awards {
+    font-weight: bold;
+    /* Define o texto dentro do elemento com id 'awards' como negrito 
+    color: white;
+    /* Define a cor do texto como branca 
+}
+
+#awards li span {
+    font-weight: bold;
+    /* Define os spans dentro do elemento com id 'awards' como negrito 
+    color: rgb(118, 83, 121);
+    /* Define a cor dos spans na segunda lista não ordenada para um tom púrpura especificado 
+}
+
+p {
+    margin-bottom: 10px;
+    /* Define o espaçamento inferior para os parágrafos 
+}
+
+span {
+    font-weight: bold;
+    /* Define o texto dentro dos spans como negrito 
+}
+*/
+
+
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    text-align: left;
+    background-color: rgb(34, 30, 32);
+    /* Fundo da página */
+}
+
+h1 {
+    font-family: 'Desdemona', sans-serif;
+    /* Fonte Desdémona */
+    font-size: 70px;
+    /* Tamanho do título */
+    color: rgb(234, 167, 0);
+    /* Cor do título */
+    text-align: -WEBKIT-LEFT;
+    /*eu*/
+    /* minha correção*/
+    /** text-align: center;
+     Centraliza o título */
+    margin-bottom: 10px;
+    /* Espaçamento inferior */
+}
+
+h2 {
+    font-family: 'Desdemona', sans-serif;
+    /* Fonte Desdémona */
+    font-size: 26px;
+    /* Tamanho do subtítulo */
+    color: white;
+    /* Cor branca para subtítulos */
+    margin-bottom: 8px;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: disc;
+    /* Estilo da lista com discos */
+    padding-bottom: 200px;
+    margin-left: 50px;
+    /* Margem à esquerda */
+}
+
+.brd {
+    color: white;
+    /*padding-left: 40px;*/
+    /*eu*/
+    /** padding-left: 0px; */
+    border: 1px solid white;
+    /* Borda branca ao redor da primeira lista */
+    padding: 10px 50px 10px 40px;
+    /*eu*/
+    /* Espaçamento interno */
+    margin: 10px 0px 10px 0px;
+    /*eu*/
+    /**margin: 10px 0;*/
+    /* Espaçamentos externos: superior, direito, inferior, esquerdo */
+    width: fit-content;
+    /* eu*/
+    /*faz com que o elemento se ajuste ao seu conteúdo*/
+}
+
+.brd li span {
+    font-weight: bold;
+    color: rgb(118, 83, 121);
+    /* Cor dos spans na primeira lista */
+}
+
+/*eu*/
+.url-text {
+    pointer-events: none;
+    /*desativa cliques*/
+    cursor: default;
+    /*Define o cursor como padrão*/
+    color: inherit;
+    /*Mantém a cor do texto padrão*/
+    text-decoration: none;
+    /*Remove o sublinhado*/
+}
+
+#life {
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+    /* Estilo do parágrafo em itálico, negrito e cor branca */
+    padding: 10px;
+    /* Adiciona espaçamento interno */
+}
+
+#awards {
+    font-weight: bold;
+    /* Realça o elemento */
+    color: white;
+    /* Cor branca para o texto */
+}
+
+#awards li span {
+    font-weight: bold;
+    color: rgb(118, 83, 121);
+    /* Cor dos spans na segunda lista */
+}
+
+p {
+    margin-bottom: 10px;
+    /* Espaçamento inferior dos parágrafos */
+}
+
+span {
+    font-weight: bold;
+    /* Define todos os spans como negrito */
+}
